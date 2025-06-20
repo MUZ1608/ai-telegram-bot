@@ -26,7 +26,7 @@ async def download_media(message: types.Message):
     url = message.text.strip()
 
     if "youtube.com" in url or "instagram.com" in url:
-        await message.reply("⏬ Yuklab olinmoqda...qo'toq sozib turing ,tezroq bo'ladi!...")
+        await message.reply("⏬ Yuklab olinmoqda...🍑 qisib tur ,tezroq bo'ladi!...")
 
         try:
             # 1. CAPTION ajratib olish
