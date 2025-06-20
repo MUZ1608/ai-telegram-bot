@@ -1,5 +1,5 @@
-s logging
-from aiogram s Bot, Dispatcher, types
+import logging
+from aiogram import Bot, Dispatcher, types
 from aiogram.types import FSInputFile
 from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
@@ -26,7 +26,7 @@ async def download_media(message: types.Message):
     url = message.text.strip()
 
     if "youtube.com" in url or "instagram.com" in url:
-        await message.reply("⏬ Yuklab olinmoqda...🍑 qisib tur ,tezroq bo'ladi!...")
+        await message.reply("⏬ Yuklab olinmoqda...Kuting! 30s-max...")
 
         try:
             # 1. CAPTION ajratib olish
