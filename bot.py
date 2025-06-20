@@ -25,7 +25,7 @@ async def handle_start(message: types.Message):
 async def download_media(message: types.Message):
     url = message.text.strip()
 
-    if "youtu" in url or "instagram.com" in url:
+    if "youtube.com" in url or "instagram.com" in url:
         await message.reply("⏬ Yuklab olinmoqda...qo'toq sozib turing ,tezroq bo'ladi!...")
 
         try:
