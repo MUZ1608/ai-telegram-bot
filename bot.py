@@ -1,5 +1,5 @@
-import logging
-from aiogram import Bot, Dispatcher, types
+s logging
+from aiogram s Bot, Dispatcher, types
 from aiogram.types import FSInputFile
 from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
